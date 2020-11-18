@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # instruccion para hacer importaciones desde odoo
-from odoo import api, fields, models
+from odoo import fields, models
 
 class product_temple(models.Model):
     _inherit = 'product.template'
