@@ -4,10 +4,10 @@ from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
 
 
-class Limit(models.Model):
+class product_temple(models.Model):
     _inherit = 'product.template'
 
     _sql_constraints = [
-        ('barcode_uniq', 'unique(default_code)',
+        ('default_code_uniq', 'unique(default_code)',
          "A default code can only be assigned to one product !"),
     ]
