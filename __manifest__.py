@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Campo Unico',
-    'version': '13.0.0.7',
+    'version': '13.0.0.6',
     'author': 'Demsa',
     'website': '',
     'depends': [
@@ -15,7 +15,7 @@
         # demo
         # reports
         # views
-        # 'views/purchase_order.xml',
+        'views/product_template.xml',
 
 
     ],
