@@ -12,5 +12,5 @@ class product_temple(models.Model):
 
     _sql_constraints = [
         ('campo_unico_uniq', 'unique(campo_unico)',
-         "A default code can only be assigned to one product !"),
+         "La Referencia Interna que se intenta agregar, ya existe !"),
     ]
