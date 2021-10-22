@@ -14,3 +14,5 @@ class product_temple(models.Model):
         ('campo_unico_uniq', 'unique(campo_unico)',
          "La Referencia Interna que se intenta agregar, ya existe !"),
     ]
+    
+    num_serie = fields.Char(string="Número de Serie",)
