@@ -8,11 +8,6 @@
             <field name="default_code" position="after">
                 <field name="campo_unico" />
             </field>
-            <field name="barcode" position="after">
-                <field name="num_serie" />
-            </field>
         </field>
     </record>
-
-
 </odoo>
