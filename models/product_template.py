@@ -15,4 +15,4 @@ class product_temple(models.Model):
          "La Referencia Interna que se intenta agregar, ya existe !"),
     ]
     
-    num_serie = fields.Char(string="Número de Serie",)
+    
